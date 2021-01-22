@@ -1,9 +1,9 @@
-from tkinter import * 
+from tkinter import *
 from tkinter import messagebox
 
-top = Tk()    
-top.geometry("350x300")   
-    
+top = Tk()
+top.geometry("350x300")
+
 Label(top,text = "Input of first concentrated point load (i): ").place(x = 20,y = 20)
 il = Entry(top,width = 10)
 il.place(x=250,y=20)
